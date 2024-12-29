@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="l">
+    <div class="content">
+        <div class="svg">
+            <a href="index.html"><img src="svgs/arrow-left-line.svg" alt=""></a>
+        </div>
+        <form onsubmit="return loginform()">
+        <h1>Login</h1>
+        <form action="login-handler.php" method="POST">
+            <div class="input">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="input">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="login-button">Log In</button>
+            <div class="links">
+                <p>dont have an account? <a href="sign.html">Create one</a></p>
+                
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
