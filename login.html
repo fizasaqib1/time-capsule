@@ -12,7 +12,7 @@
         <div class="svg">
             <a href="index.html"><img src="svgs/arrow-left-line.svg" alt=""></a>
         </div>
-        <form onsubmit="return loginform()">
+        <form action="real.php" onsubmit="return loginform()">
         <h1>Login</h1>
         <form action="login-handler.php" method="POST">
             <div class="input">
@@ -23,7 +23,7 @@
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Enter your password" required>
             </div>
-            <button type="submit" class="login-button">Log In</button>
+            <a href="real.html" class="login-button">Log In</a>
             <div class="links">
                 <p>dont have an account? <a href="sign.html">Create one</a></p>
                 

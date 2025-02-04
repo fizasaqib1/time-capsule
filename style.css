@@ -179,19 +179,23 @@ width: 100%;
     color: #333;
 }
 .login-button {
-    width: 100%;
-    background: black;
+    background-color: black;
     color: #fff;
-    border: none;
-    padding: 10px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    width:500px;
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    border-radius: 12px;
+}
+.login-button a{
+    background-color: black;
 }
 
 .login-button:hover {
  opacity: 60%;
+ text-decoration: none;
 }
 
 .links {
@@ -308,6 +312,10 @@ a:hover {
     height: 100%;
 
 }
+#reset:hover{
+opacity: 70%;
+cursor: pointer;
+}
 .navbar{
     display: flex;
     /* background: blue; */
@@ -346,12 +354,14 @@ a:hover {
     margin-left: 60px;
 }
 .real-container{
-    height:700px;
+    height:470px;
+    overflow: hidden;
     background-color: #9c6843;
     box-shadow: 0 4px 10px rgba(49, 6, 6, 0.1);
     width:80%;
-    margin-left: 12%;
-    margin-top: 30px;
+    margin-top: 10px;
+    width:550px;
+    justify-self: center;
 }
 .realimgs img{
     height: 20px;
@@ -371,10 +381,14 @@ background-color: #6F4E37;
     width:30px;
     height:40px;
 }
+.imgs img:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
 #editor1{
     color: black;
     width:100%;
-    height:500px;
+    height:220px;
 
     background-color:#9c6843;
     border: 1px solid #ccc;
@@ -382,6 +396,15 @@ background-color: #6F4E37;
     font-size: larger;
     border: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.hello h2{
+    text-align: center;
+    font-family: hind mysuru;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: larger;
+    color: #6F4E37;
+
 }
 #letterinput:hover{
     border:none;
@@ -459,9 +482,6 @@ border: none;
     ;
 
 }
-.profile-container .pro{
-    
-}
 .account img{
     border-radius: 200px;
     height:60px;
@@ -530,4 +550,58 @@ border-radius: 20px;
 .logout:hover{
     cursor: pointer;
     opacity: 50%;
+}
+#delivery{
+    background-color:black;
+    color:#9c6843;
+    margin-left: -50px;
+    border-color: #9c6843;
+    /* margin-left: 100px; */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+    margin-top: 12px;
+    border-color: #9c6843;
+}
+ #email{
+    background-color:black;
+    color:#9c6843;
+    margin-top: 13px;
+    width: 70%;
+    align-self: center;
+    margin-left: 0px;
+    border-radius: 12px;
+    border-color: #9c6843;
+}
+#email::placeholder{
+    color: #9c6843;
+}
+.options{
+    margin-left: 100px;
+}
+
+.inspire{
+    background-color:black;
+    color:#9c6843;
+    margin-top: 13px;
+    width: 20%;
+    align-self: center;
+    margin-left: 100px;
+    border-radius: 12px;
+    border-color: #9c6843;
+    padding: 8px;
+}
+.submit{
+    background-color:black;
+    color:#9c6843;
+    margin-top: 13px;
+    width: 30%;
+    /* align-self: center; */
+    margin-left: 10px;
+    border-radius: 12px;
+    border-color: #9c6843;
+    padding: 8px;
+}
+.actions{
+    display: flex;
 }
