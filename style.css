@@ -554,7 +554,7 @@ border-radius: 20px;
 #delivery{
     background-color:black;
     color:#9c6843;
-    margin-left: -50px;
+    margin-left: 50px;
     border-color: #9c6843;
     /* margin-left: 100px; */
     padding-top: 8px;
@@ -567,7 +567,7 @@ border-radius: 20px;
     background-color:black;
     color:#9c6843;
     margin-top: 13px;
-    width: 70%;
+    width: 50%;
     align-self: center;
     margin-left: 0px;
     border-radius: 12px;
